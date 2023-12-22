@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+input {
+    width: 40px;
+    text-align: center;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+button {
+    margin-top: 10px;
+}
+
+.toggleButton:hover{
+    background-color: #2980b9;
+}
+
+.result-container {
+    margin-top: 20px;
+}
+#riskDiv {
+    display: none;
+}
+
+#uncertantyDiv {
+    display: none;
+}
+
+#pValuesContainer input {
+    margin: 0 8.66px;
+}
+
+#matrix-container {
+    position: relative;
+}
